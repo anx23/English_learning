@@ -1,0 +1,2 @@
+class WordModel < ApplicationRecord
+end

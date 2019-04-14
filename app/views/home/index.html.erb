@@ -1,0 +1,35 @@
+<div class="container">
+    <% @wordmodels.each do |wordmodel| %>
+     
+       <% str=wordmodel.word[0] %>
+
+        <% if str=='a' || str=='A'then %>
+
+        <table border="1" align="center">
+    
+       
+            <tr>
+            <td> <%=wordmodel.word %> </td>
+            <td> <%=wordmodel.category %> </td>
+            <td> <%=wordmodel.mean %> </td>
+            </tr>
+           
+        
+         
+         
+       </table>
+  
+   <%end%>
+    <% end %>
+
+
+<div class ="leftlink">
+<table border="1" align="center">
+<tr>
+<td>A</td><td>B</td><td>C</td><td>D</td>
+</tr>
+</table>
+</div>
+
+
+</div>

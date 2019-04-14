@@ -1,0 +1,51 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container{
+    max-width: 100%;
+    text-align:center;
+}
+
+.header_logo{
+    background-color:#C0C0C0;
+    margin: 30px; 
+    
+}
+
+.header_menu{
+    
+    background-color:#C0C0C0;
+    display: flex
+    
+}
+
+ul {
+    list-style: none;
+  }
+
+  .head_item{
+
+    padding: 5px;
+    border: inset 2px ;
+    
+  }
+
+body{
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table{
+    width: 300px;
+    text-align:center;
+    table-layout: fixed;
+}
+
+th{
+    width: 30%;
+}

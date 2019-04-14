@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EnglishLearning</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <header>
+<div class="header_logo">
+<h1>English Learing</h1>
+
+<ul class="header_menu">
+<li class="head_item"><%=link_to("Top","/")%></li>
+<li class="head_item"><%=link_to("英単語勉強","/index")%></li>
+
+</ul>
+</div>
+
+
+</header>
+
+    <%= yield %>
+  </body>
+</html>
